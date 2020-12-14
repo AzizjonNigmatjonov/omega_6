@@ -378,3 +378,131 @@ img {
 	margin-top: 10px;
 	text-transform: capitalize;
 }
+
+.making .container {
+	width: 1140px;
+	margin: 0 auto;
+	padding: 100px 0px;
+}
+
+.making-list {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.making-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.image-making {
+	width: 300px;
+}
+
+.making-content {
+	width: 400px;
+	border: 1px solid black;
+}
+
+.making-title {
+	color: #19191b;
+	font-size: 45px;
+	line-height: 55px;
+}
+
+.making-subtext {
+	color: #696871;
+	font-size: 16px;
+	line-height: 34px;
+	letter-spacing: -0.65px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.making-link {
+	color: #ffffff;
+	font-size: 16px;
+	letter-spacing: -0.65px;
+	background-color: #f04037;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.making-find_wrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 270px;
+	background-color: red;
+	margin-top: 20px;
+}
+
+.find-number {
+	font-size: 19px;
+	background-color: #5454d4;
+	width: 44px;
+	height: 44px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	color: #ffffff;
+}
+
+.find-text {
+	color: #19191b;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: -0.65px;
+	font-weight: bold;
+}
+
+.find-subtext {
+	color: #696871;
+	letter-spacing: -0.5px;
+	font-size: 11px;
+	line-height: 23px;
+	width: 210px;
+}
+
+.making-item_first {
+	align-items: flex-start;
+}
+
+.making-item_second {
+	margin-top: 40px;
+	flex-direction: row-reverse;
+	margin-bottom: 40px;
+}
+
+.image-making-3 {
+	display: flex;
+	width: 260px;
+	height: 350px;
+	background-color: red;
+	flex-wrap: wrap;	
+}
+
+.making-img-1 {
+	width: 120px;
+	margin-right: 8px;
+	margin-bottom: 5px;
+}
+
+.making-img-2 {
+	margin-top: 70px;
+	width: 120px;
+}
+
+.making-img-3 {
+	width: 120px;
+	margin-right: 8px;
+}
+
+.making-img-4 {
+	width:120px;
+}

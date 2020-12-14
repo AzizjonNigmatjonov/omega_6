@@ -10,6 +10,10 @@
 	.star .container {
 		width: 1090px;
 	}
+
+	.making .container {
+		width: 1090px;
+	}
 }
 
 @media(max-width: 1100px) {
@@ -27,6 +31,10 @@
 
 	.star-subtext {
 		width: 350px;
+	}
+
+	.making .container {
+		width: 1050px;
 	}
 }
 
@@ -46,6 +54,10 @@
 	.star-subtext {
 		width: 340px;
 	}
+
+	.making .container {
+		width: 1000px;
+	}
 }
 
 
@@ -64,6 +76,14 @@
 
 	.star-subtext {
 		width: 320px;
+	}
+
+	.making .container {
+		width: 950px;
+	}
+
+	.making-content {
+		width: 380px;
 	}
 }
 
@@ -92,6 +112,14 @@
 	.star-subtext {
 		width: 320px;
 	}
+
+	.making .container {
+		width: 900px;
+	}
+
+	.making-list {
+		width: 75%;
+	}
 }
 
 @media(max-width: 900px) {
@@ -117,6 +145,14 @@
 
 	.star-subtext {
 		width: 300px;
+	}
+
+	.making .container {
+		width: 850px;
+	}
+
+	.making-content {
+		width: 340px;
 	}
 }
 
@@ -144,6 +180,15 @@
 	.star-subtext {
 		width: 280px;
 	}
+
+	.making .container {
+		width: 800px;
+	}
+
+	.making-content {
+		width: 320px;
+	}
+
 }
 
 @media(max-width: 800px) {
@@ -172,6 +217,14 @@
 	}
 
 	.star__wrapper {
+		width: 80%;
+	}
+
+	.making .container {
+		width: 750px;
+	}
+
+	.making-list {
 		width: 80%;
 	}
 
@@ -206,6 +259,26 @@
 
 	.star .container {
 		width: 700px;
+	}
+
+	.making .container {
+		width: 700px;
+	}
+
+	.making-content {
+		width: 280px;
+	}
+
+	.making-link {
+		margin-top: 10px;
+	}
+
+	.making-find_wrapper {
+		width: 240px;
+	}
+
+	.find-subtext {
+		width: 180px;
 	}
 }
 
@@ -252,6 +325,14 @@
 	.star-subtext {
 		width: 240px;
 	}
+
+	.making .container {
+		width: 650px;
+	}
+
+	.making-content {
+		width: 250px;
+	}
 }
 
 @media(max-width: 650px) {
@@ -287,6 +368,29 @@
 	.star-subtext {
 		width: 220px;
 	}
+
+	.making .container {
+		width: 600px;
+	}
+
+	.making-item {
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.making-content {
+		width: 400px;
+		padding-top: 10px;
+	}
+
+	.making-find_wrapper {
+		width: 270px;
+	}
+
+	.find-subtext {
+		width: 210px;
+	}
 }
 
 @media(max-width: 600px) {
@@ -318,6 +422,7 @@
 
 	.star .container {
 		width: 550px;
+		padding: 50px 0px;
 	}
 
 	.star-list {
@@ -327,6 +432,11 @@
 
 	.star-subtext {
 		width: 300px;
+	}
+
+	.making .container {
+		width: 550px;
+		padding: 50px 0px;
 	}
 }
 
@@ -348,6 +458,11 @@
 	.star-subtext {
 		width: 260px;
 	}
+
+	.making .container {
+		width: 500px;
+		padding: 20px 0px;
+	}
 }
 
 @media(max-width: 500px) {
@@ -361,6 +476,32 @@
 
 	.star .container {
 		width: 450px;
+		padding: 20px 0px;
+	}
+
+	.making .container {
+		width: 450px;
+	}
+
+	.image-making {
+		width: 200px;
+	}
+
+	.making-content {
+		width: 330px;
+	}
+
+	.making-subtext {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.making-find_wrapper {
+		margin-top: 10px;
+	}
+
+	.image-making-3 {
+		width: 260px;
 	}
 }
 
@@ -378,6 +519,10 @@
 	}
 
 	.star .container {
+		width: 400px;
+	}
+
+	.making .container {
 		width: 400px;
 	}
 }
@@ -449,6 +594,52 @@
 	.star-name {
 		margin-top: 0;
 	}
+
+	.making .container {
+		width: 350px;
+	}
+
+	.making-content {
+		width: 250px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.making-title {
+		text-align: center;
+		line-height: 45px;
+	}
+
+	.making-subtext {
+		text-align: center;
+		line-height: 20px;
+		margin-top: 5px;
+	}
+
+	.making-link {
+		margin-top: 5px;
+	}
+
+	.making-find_wrapper {
+		width: 250px;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.find-text {
+		text-align: center;
+		padding-top: 5px;
+	}
+
+	.find-subtext {
+		text-align: center;
+	}
+
+	.making-item_second {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
 }
 
 @media(max-width: 350px) {
@@ -502,6 +693,10 @@
 	.star-subtext {
 		width: 240px;
 	}
+
+	.making .container {
+		width: 300px;
+	}
 }
 
 @media(max-width: 300px) {
@@ -528,6 +723,10 @@
 	.star__wrapper {
 		width: 100%;
 	}
+
+	.making .container {
+		width: 250px;
+	}
 }
 
 @media(max-width: 250px) {
@@ -542,4 +741,55 @@
 	.star .container {
 		width: 95%;
 	} 
+
+	.making .container {
+		width: 95%;
+	}
+
+	.making-content {
+		width: 100%;
+	}
+
+	.making-title {
+		width: 100%;
+		font-size: 30px;
+		line-height: 32px;
+	}
+
+	.image-making {
+		width: 160px;
+	}
+
+	.making-find_wrapper  {
+		width: 100%;
+	}
+
+	.find-subtext {
+		width: 100%;
+	}
+
+	.image-making-3  {
+		width: 100%;
+		flex-direction: column;
+		background-color: yellow;
+		display: none;	
+	}
+
+	.making-img-1 {
+		width: 120px;
+	}
+
+	.making-img-2 {
+		width: 120px;
+	}
+
+	.making-img-3 {
+		width: 120px;
+		margin-right: 8px;
+	}
+
+	.making-img-4 {
+		width:120px;
+	}
+
 }
