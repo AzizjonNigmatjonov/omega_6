@@ -346,7 +346,6 @@ img {
 	align-items: center;
 	justify-content: center;
 	width: 70%;
-	background-color: red;
 }
 
 .star-list {
@@ -382,7 +381,7 @@ img {
 .making .container {
 	width: 1140px;
 	margin: 0 auto;
-	padding: 100px 0px;
+	padding: 100px 0px 70px 0px;
 }
 
 .making-list {
@@ -403,7 +402,6 @@ img {
 
 .making-content {
 	width: 400px;
-	border: 1px solid black;
 }
 
 .making-title {
@@ -437,7 +435,6 @@ img {
 	display: flex;
 	justify-content: space-between;
 	width: 270px;
-	background-color: red;
 	margin-top: 20px;
 }
 
@@ -483,7 +480,6 @@ img {
 	display: flex;
 	width: 260px;
 	height: 350px;
-	background-color: red;
 	flex-wrap: wrap;	
 }
 
@@ -505,4 +501,132 @@ img {
 
 .making-img-4 {
 	width:120px;
+}
+
+.image .container {
+	width: 1140px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.image-img {
+	width: 100%;
+}
+
+.image-button {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%, -50%);
+	border-radius: 50%;
+	width: 85px;
+	height: 85px;
+	border: none;
+	background-color: #ffffff;
+}
+
+.image-play-img {
+	width: 20px;
+}
+
+.get .container {
+	width: 1140px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.get .header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 0px;
+}
+
+.get-title {
+	color: #19191b;
+	letter-spacing: -1.25px;
+	text-align: center;
+	font-size: 45px;
+}
+
+.get-subtext {
+	color: #696871;
+	text-align: center;
+	letter-spacing: -0.5px;
+	font-size: 16px;
+	line-height: 30px;
+	width: 400px;
+	margin-top: 5px;
+}
+
+.get-image {
+	display: flex;
+	align-items: center;
+}
+
+.get-link_social {
+	text-decoration: none;
+	width: 160px;
+	display: block;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.omega-hr {
+	border: none;
+	outline: none;
+	background-color: #eae9f2;
+	width: 100%;
+	height: 1px;
+}
+
+.omega .container {
+	width: 1140px;
+	margin: 0 auto;
+	padding: 20px 0px;
+}
+
+.omega-list {
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.omega-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 320px;
+}
+
+.omega-text {
+	color: #19191b;
+	font-size:	24px;
+	font-weight: bold;
+	letter-spacing: -0.5px;
+}
+
+.omega-subtext {
+	color: #19191b;
+	letter-spacing: -0.5px;
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 3px;
+}
+
+.omega-link_privacy {
+	font-size: 14px;
+	color: #19191b;
+	letter-spacing: -0.5px;
+	display: inline-block;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.omega-link_privacy:hover {
+	color: #5454d4;
 }
